@@ -127,6 +127,59 @@ main section{
     line-height: 1.5;
   }
 
+  /* feature section styles */
+
+  #feature-section-border{
+    border-left: 8px solid #FF900E;
+    padding-left: 25px;
+  }
+  .feature-section-style{
+    gap: 160px;
+  }
+  .feature-section-title{
+    font-weight: bold;
+    font-size: 2.8rem;
+  
+  }
+  .feature-section-description, .feature-card-description{
+    font-weight: 1.2rem;
+    line-height: 26px;
+    
+  }
+  
+  .feature-card{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    gap: 20px;
+    border-radius: 8px;
+  }
+  .feature-card-title{
+    font-weight: 600px;
+    font-size: 1.25rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .huge-button{
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    
+    padding: 45px 40px;
+    margin-left: -100px;
+    margin-top: -100px;
+    
+  }
+  #experience-year{
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  #experience-word{
+    font-size: 1.40rem;
+    font-weight: 500px;
+  }
+
 /* facts area design */
 .facts-title{
   font-size: 2.8rem;
@@ -241,6 +294,17 @@ footer{
     width: 400px;
     
   }
+  .feature-section-style{
+    flex-direction: column;
+  }
+  .feature-section-photo img{
+    width: 100%;
+  }
+
+  .huge-button{
+    margin-top: 20px;
+    margin-left: 30px;
+  }
   .our-features{
     margin: 0 auto;
     text-align: center;
@@ -263,6 +327,18 @@ footer{
 @media  screen and (min-width: 576px) and (max-width: 992px) {
   .teams{
     flex-direction: column;
+  }
+  .feature-section-style{
+    flex-direction: column;
+  }
+
+  .feature-section-photo img{
+    width: 100%;
+  }
+
+  .huge-button{
+    margin-top: 50px;
+    margin-left: 270px;
   }
   .our-features{
     margin: 0 auto;
